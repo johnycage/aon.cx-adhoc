@@ -20,19 +20,10 @@
 
     <!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
-    <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
     <link rel="stylesheet" href="assets/vendor/icon-line/css/simple-line-icons.css">
     <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
-    <!-- <link rel="stylesheet" href="assets/vendor/chosen/chosen.css"> -->
+    
     <link rel="stylesheet" href="assets/vendor/animate.css">
-    <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
-
-    <!-- Revolution Slider -->
-    <link rel="stylesheet" href="assets/vendor/revolution-slider/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-    <link rel="stylesheet" href="assets/vendor/revolution-slider/revolution/css/settings.css">
-    <link rel="stylesheet" href="assets/vendor/revolution-slider/revolution/css/layers.css">
-    <link rel="stylesheet" href="assets/vendor/revolution-slider/revolution/css/navigation.css">
 
     <!-- CSS Template -->
     <link rel="stylesheet" href="assets/css/styles.op-agency.css">
@@ -64,7 +55,7 @@
                 <div class="navbar-collapse">
                   <ul id="js-scroll-nav" class="navbar-nav text-uppercase g-font-weight-700 g-font-size-11 ml-auto g-pt-20 g-pt-3--lg">
                     <li class="nav-item g-mr-15--lg g-mb-7 g-mb-0--lg active">
-                      <a href="#products" class="nav-link p-0">Products<span class="sr-only">(current)</span></a>
+                      <a href="#solutions" class="nav-link p-0">solutions<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
                       <a href="#services" class="nav-link p-0">Services</a>
@@ -102,239 +93,32 @@
 
       <!-- Section Content -->
       <section id="home">
-        <div id="promoSliderWrapper" class="rev_slider_wrapper fullscreen-container" data-alias="scroll-effect76" style="background-color: #111111; padding: 0;">
-          <!-- START REVOLUTION SLIDER 5.0.7 fullscreen mode -->
-          <div id="promoSlider" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.0.7">
-            <ul>
-              <!-- SLIDE  -->
-              <li data-index="rs-309"
-                  data-transition="slideoverhorizontal"
-                  data-slotamount="default"
-                  data-easein="Power4.easeInOut"
-                  data-easeout="Power4.easeInOut"
-                  data-masterspeed="1000"
-                  data-thumb="assets/img-temp/100x50/img1.jpg"
-                  data-rotate="0"
-                  data-fstransition="fade"
-                  data-fsmasterspeed="1500"
-                  data-fsslotamount="7"
-                  data-saveperformance="off"
-                  data-title="Unify Agency">
-                <!-- MAIN IMAGE -->
-                <img class="rev-slidebg" src="assets/img-temp/1920x1080/img1.jpg" alt="Image description"
-                     data-bgposition="center center"
-                     data-bgfit="cover"
-                     data-bgrepeat="no-repeat"
-                     data-bgparallax="10"
-                     data-no-retina>
-                <!-- LAYERS -->
+        <div id="banner-video-wrapper" class="fullscreen-container">
 
-                <!-- LAYER NR. 1 -->
-                <div id="promoSliderLayer11" class="tp-caption tp-shape tp-shapewrapper rs-parallaxlevel-0" style="z-index: 5; background-color: rgba(0, 0, 0, 0.50); border-color: rgba(0, 0, 0, 0); background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.45) 100%);"
-                     data-x="['center','center','center','center']"
-                     data-hoffset="['0','0','0','0']"
-                     data-y="['bottom','bottom','bottom','bottom']"
-                     data-voffset="['0','0','0','0']"
-                     data-width="full"
-                     data-height="['400','400','400','550']"
-                     data-whitespace="nowrap"
-                     data-transform_idle="o:1;"
-                     data-style_hover="cursor:default;"
-                     data-transform_in="opacity:0;s:1500;e:Power2.easeInOut;"
-                     data-transform_out="opacity:0;s:1000;s:1000;"
-                     data-start="0"
-                     data-basealign="slide"
-                     data-responsive_offset="off"
-                     data-responsive="off"></div>
-
-                <!-- LAYER NR. 2 -->
-                <div id="promoSliderLayer1" class="tp-caption BigBold-Title tp-resizeme rs-parallaxlevel-0" style="z-index: 6; white-space: nowrap;"
-                     data-x="['left','left','left','left']"
-                     data-hoffset="['50','50','30','17']"
-                     data-y="['bottom','bottom','bottom','bottom']"
-                     data-voffset="['110','110','180','160']"
-                     data-fontsize="['110','100','70','60']"
-                     data-lineheight="['110','100','70','60']"
-                     data-width="['none','none','none','400']"
-                     data-height="none"
-                     data-whitespace="['nowrap','nowrap','nowrap','normal']"
-                     data-transform_idle="o:1;"
-                     data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                     data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                     data-mask_in="x:0px;y:[100%];"
-                     data-mask_out="x:inherit;y:inherit;"
-                     data-start="500"
-                     data-splitin="none"
-                     data-splitout="none"
-                     data-basealign="slide"
-                     data-responsive_offset="off">Awesome Online Networks
+          <div class="banner">
+                <video autoplay muted loop id="video">
+                    <source src="assets/video/typing.mp4" type="video/mp4">
+                </video>
+                <div class="banner-overlay"></div>
+                <div class="banner-content">
+                    <h1 data-animation="fadeInUp"
+                   data-animation-duration="1300">Awesome Online Networks</h1>
+                    <p data-animation="fadeInUp"
+                   data-animation-duration="1500">Full Service Digital Agency in Mumbai Singapore </p>
+                    <button class="button" id="btn">Pause Here</button>
                 </div>
-
-                <!-- LAYER NR. 3 -->
-                <div id="promoSliderLayer4" class="tp-caption BigBold-SubTitle rs-parallaxlevel-0" style="z-index: 7; min-width: 410px; max-width: 410px; white-space: normal;"
-                     data-x="['left','left','left','left']"
-                     data-hoffset="['55','55','33','20']"
-                     data-y="['bottom','bottom','bottom','bottom']"
-                     data-voffset="['40','1','74','58']"
-                     data-fontsize="['15','15','15','13']"
-                     data-lineheight="['24','24','24','20']"
-                     data-width="['410','410','410','280']"
-                     data-height="['60','100','100','100']"
-                     data-whitespace="normal"
-                     data-transform_idle="o:1;"
-                     data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                     data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                     data-start="650"
-                     data-splitin="none"
-                     data-splitout="none"
-                     data-basealign="slide"
-                     data-responsive_offset="off"
-                     data-responsive="off">A Full cycle Digital Agency for customer centric Organizations &amp; Brands.
-                </div>
-
-                <!-- LAYER NR. 4 -->
-                <div id="promoSliderLayer7" class="tp-caption BigBold-Button rev-btn rs-parallaxlevel-0" style="z-index: 8; text-transform: uppercase; white-space: nowrap; border-color: rgba(255, 255, 255, 0.25); outline: none; box-shadow: none; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;"
-                     data-x="['left','left','left','left']"
-                     data-hoffset="['480','480','30','20']"
-                     data-y="['bottom','bottom','bottom','bottom']"
-                     data-voffset="['50','50','30','20']"
-                     data-width="none"
-                     data-height="none"
-                     data-whitespace="nowrap"
-                     data-transform_idle="o:1;"
-                     data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
-                     data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);cursor:pointer;"
-                     data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                     data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                     data-start="650"
-                     data-splitin="none"
-                     data-splitout="none"
-                     data-actions='[
-                       {"event":"click","action":"scrollbelow","offset":"px"}
-                     ]'
-                     data-basealign="slide"
-                     data-responsive_offset="off"
-                     data-responsive="off">Contact Us
-                </div>
-              </li>
-
-              <!-- SLIDE  -->
-              <li data-index="rs-310"
-                  data-transition="slideoverhorizontal"
-                  data-slotamount="default"
-                  data-easein="Power4.easeInOut"
-                  data-easeout="Power4.easeInOut"
-                  data-masterspeed="1000"
-                  data-thumb="assets/img-temp/100x50/img2.jpg"
-                  data-rotate="0"
-                  data-saveperformance="off"
-                  data-title="HTML5 Video">
-                <!-- MAIN IMAGE -->
-                <img class="rev-slidebg" src="assets/img-temp/1920x1080/img2.jpg" alt="Image description"
-                     data-bgposition="center center"
-                     data-bgfit="cover"
-                     data-bgrepeat="no-repeat"
-                     data-bgparallax="10"
-                     data-no-retina>
-                <!-- LAYERS -->
-
-                <!-- BACKGROUND VIDEO LAYER -->
-                <div class="rs-background-video-layer"
-                     data-forcerewind="on"
-                     data-volume="mute"
-                     data-videowidth="100%"
-                     data-videoheight="100%"
-                     data-videomp4="assets/video/typing.mp4"
-                     data-videopreload="preload"
-                     data-videostartat="00:04"
-                     data-videoloop="loop"
-                     data-forceCover="1"
-                     data-aspectratio="16:9"
-                     data-autoplay="true"
-                     data-autoplayonlyfirsttime="false"
-                     data-nextslideatend="true"></div>
-
-                <!-- LAYER NR. 1 -->
-                <div id="promoSliderLayer211" class="tp-caption tp-shape tp-shapewrapper rs-parallaxlevel-0" style="z-index: 5; background-color: rgba(0, 0, 0, 0.50); border-color: rgba(0, 0, 0, 0); background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.45) 100%);"
-                     data-x="['center','center','center','center']"
-                     data-hoffset="['0','0','0','0']"
-                     data-y="['bottom','bottom','bottom','bottom']"
-                     data-voffset="['0','0','0','0']"
-                     data-width="full"
-                     data-height="['400','400','400','550']"
-                     data-whitespace="nowrap"
-                     data-transform_idle="o:1;"
-                     data-style_hover="cursor:default;"
-                     data-transform_in="opacity:0;s:1500;e:Power2.easeInOut;"
-                     data-transform_out="opacity:0;s:1000;s:1000;"
-                     data-start="0"
-                     data-basealign="slide"
-                     data-responsive_offset="off"
-                     data-responsive="off">
-                </div>
-
-                <!-- LAYER NR. 2 -->
-                <div id="promoSliderLayer21" class="tp-caption BigBold-Title tp-resizeme rs-parallaxlevel-0" style="z-index: 6; text-transform: uppercase; white-space: nowrap;"
-                     data-x="['left','left','left','left']"
-                     data-hoffset="['50','50','30','17']"
-                     data-y="['bottom','bottom','bottom','bottom']"
-                     data-voffset="['110','110','180','160']"
-                     data-fontsize="['110','100','70','60']"
-                     data-lineheight="['100','90','60','60']"
-                     data-width="['none','none','none','400']"
-                     data-height="none"
-                     data-whitespace="['nowrap','nowrap','nowrap','normal']"
-                     data-transform_idle="o:1;"
-                     data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                     data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                     data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-                     data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                     data-start="500"
-                     data-splitin="none"
-                     data-splitout="none"
-                     data-basealign="slide"
-                     data-responsive_offset="off">Always Available Anywhere!
-                </div>
-
-                <!-- LAYER NR. 3 -->
-                <div id="promoSliderLayer24" class="tp-caption BigBold-SubTitle rs-parallaxlevel-0" style="z-index: 7; min-width: 410px; max-width: 410px; white-space: normal;"
-                     data-x="['left','left','left','left']"
-                     data-hoffset="['55','55','33','20']"
-                     data-y="['bottom','bottom','bottom','bottom']"
-                     data-voffset="['40','1','74','58']"
-                     data-fontsize="['15','15','15','13']"
-                     data-lineheight="['24','24','24','20']"
-                     data-width="['410','410','410','280']"
-                     data-height="['60','100','100','100']"
-                     data-whitespace="normal"
-                     data-transform_idle="o:1;"
-                     data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                     data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                     data-start="650"
-                     data-splitin="none"
-                     data-splitout="none"
-                     data-basealign="slide"
-                     data-responsive_offset="off"
-                     data-responsive="off">We are just a chat away.
-                </div>                
-              </li>
-            </ul>
-
-            <div class="tp-static-layers"></div>
-
-            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
-          </div>
-        </div><!-- END REVOLUTION SLIDER -->
+            </div>
+        </div>
       </section>
       <!-- End Section Content -->
 
       <!-- Section Content -->
-      <section id="products" class="g-pos-rel">
+      <section id="solutions" class="g-pos-rel">
         <!-- Info Blocks -->
         <div class="row align-items-stretch no-gutters">
           <div class="col-md-6">
             <!-- Article -->
-            <article class="h-100 g-bg-img-hero" style="background-image: url(assets/img-temp/900x390/img1.jpg);">
+            <article class="h-100 g-bg-img-hero">
               <div class="d-flex text-left text-lg-right h-100 g-theme-bg-gray-dark-v2 g-bg-primary-dark-v1-opacity-0_9--hover g-py-30 g-py-90--md g-px-15 g-px-30--md g-pr-170--lg g-transition-0_3 g-transition--ease-in">
                 <div class="align-self-center">
                   <h3 class="h5 text-uppercase g-font-weight-700 g-font-secondary g-color-white g-mb-12">1. AGENCY</h3>
@@ -347,7 +131,7 @@
 
           <div class="col-md-6">
             <!-- Article -->
-            <article class="h-100 g-bg-img-hero" style="background-image: url(assets/img-temp/900x390/img2.jpg);">
+            <article class="h-100 g-bg-img-hero">
               <div class="d-flex h-100 g-theme-bg-gray-dark-v1 g-bg-primary-dark-v1-opacity-0_9--hover g-py-30 g-py-90--md g-px-15 g-px-30--md g-pl-170--lg g-transition-0_3 g-transition--ease-in">
                 <div class="align-self-center">
                   <h3 class="h5 text-uppercase g-font-weight-700 g-font-secondary g-color-white g-mb-12">2. ROCKSTAR</h3>
@@ -362,7 +146,7 @@
         <div class="row align-items-stretch no-gutters">
           <div class="col-md-6">
             <!-- Article -->
-            <article class="h-100 g-bg-img-hero" style="background-image: url(assets/img-temp/900x390/img3.jpg);">
+            <article class="h-100 g-bg-img-hero">
               <div class="d-flex text-left text-lg-right h-100 g-theme-bg-gray-dark-v1 g-bg-primary-dark-v1-opacity-0_9--hover g-py-30 g-py-90--md g-px-15 g-px-30--md g-pr-170--lg g-transition-0_3 g-transition--ease-in">
                 <div class="align-self-center">
                   <h3 class="h5 text-uppercase g-font-weight-700 g-font-secondary g-color-white g-mb-12">3. DIGITAL TRANSFORMATION</h3>
@@ -375,7 +159,7 @@
 
           <div class="col-md-6">
             <!-- Article -->
-            <article class="h-100 g-bg-img-hero" style="background-image: url(assets/img-temp/900x390/img4.jpg);">
+            <article class="h-100 g-bg-img-hero">
               <div class="d-flex h-100 g-theme-bg-gray-dark-v2 g-bg-primary-dark-v1-opacity-0_9--hover g-py-30 g-py-90--md g-px-15 g-px-30--md g-pl-170--lg g-transition-0_3 g-transition--ease-in">
                 <div class="align-self-center">
                   <h3 class="h5 text-uppercase g-font-weight-700 g-font-secondary g-color-white g-mb-12">4. HOSTING &amp; EMAIL &amp; DOMAINS</h3>
@@ -387,7 +171,7 @@
           </div>
         </div>
 
-        <img class="g-hidden-sm-down g-width-100--md g-width-200--lg g-height-100--md g-height-200--lg g-absolute-centered" src="assets/img-temp/230x230/img1.jpg" alt="Image description">
+        <img class="g-hidden-sm-down g-width-100--md g-width-200--lg g-height-100--md g-height-200--lg g-absolute-centered" src="assets/img-temp/230x230/aon-products.png" alt="Image description">
         <!-- End Info Blocks -->
       </section>
       <!-- End Section Content -->
@@ -410,7 +194,7 @@
               <div class="text-center"
                    data-animation="fadeInUp"
                    data-animation-duration="1500">
-                <span class="u-icon-v2 u-icon-size--3xl g-font-size-30 g-font-size-40--md g-color-primary g-brd-10 g-brd-gray-light-v5 g-rounded-50x g-mb-25"><i class="icon-magic-wand"></i></span>
+                <span class="u-icon-v2 u-icon-size--3xl g-font-size-30 g-font-size-40--md g-color-primary g-brd-10 g-brd-gray-light-v5 g-rounded-50x g-mb-25"><i class="fa fa-bullhorn"></i></span>
                 <h3 class="h6 text-uppercase g-font-weight-700 g-font-secondary g-color-black g-mb-15">Web Marketing</h3>
                 <p class="mb-0">Implementing modern marketing techniques in your campaign by running 'Pay Per Click' online ads, get back the lost lead with remarketing, banners, videos. Build and promote brands and organisations online with Search Engine Optimisation 'SEO' and be on top of search results with SEM. Keep eye on ad spending and optimise for ROI & CRO.</p>
               </div>
@@ -420,7 +204,7 @@
               <div class="text-center"
                    data-animation="fadeInUp"
                    data-animation-duration="1750">
-                <span class="u-icon-v2 u-icon-size--3xl g-font-size-30 g-font-size-40--md g-color-primary g-brd-10 g-brd-gray-light-v5 g-rounded-50x g-mb-25"><i class="icon-diamond"></i></span>
+                <span class="u-icon-v2 u-icon-size--3xl g-font-size-30 g-font-size-40--md g-color-primary g-brd-10 g-brd-gray-light-v5 g-rounded-50x g-mb-25"><i class="icon-briefcase"></i></span>
                 <h3 class="h6 text-uppercase g-font-weight-700 g-font-secondary g-color-black g-mb-15">Consulting</h3>
                 <p class="mb-0">Accelerate Digital Transformation systemetically? Or want to conduct audit to improve your current ad campaigns. Analyse the traffic and design better lead funnels for website? A consultant who is expert in its domain can help your in improving the overall efficiency.</p>
               </div>
@@ -430,7 +214,7 @@
               <div class="text-center"
                    data-animation="fadeInUp"
                    data-animation-duration="2000">
-                <span class="u-icon-v2 u-icon-size--3xl g-font-size-30 g-font-size-40--md g-color-primary g-brd-10 g-brd-gray-light-v5 g-rounded-50x g-mb-25"><i class="icon-calculator"></i></span>
+                <span class="u-icon-v2 u-icon-size--3xl g-font-size-30 g-font-size-40--md g-color-primary g-brd-10 g-brd-gray-light-v5 g-rounded-50x g-mb-25"><i class="icon-star"></i></span>
                 <h3 class="h6 text-uppercase g-font-weight-700 g-font-secondary g-color-black g-mb-15">UI/UX Design</h3>
                 <p class="mb-0">From Prototype to Production! Design digital interfaces for Mobile, Desktop, Customer Dashboard, Apps or Website, the approach and experience are different but the design priciples remain same. </p>
               </div>
@@ -440,7 +224,7 @@
               <div class="text-center"
                    data-animation="fadeInUp"
                    data-animation-duration="2250">
-                <span class="u-icon-v2 u-icon-size--3xl g-font-size-30 g-font-size-40--md g-color-primary g-brd-10 g-brd-gray-light-v5 g-rounded-50x g-mb-25"><i class="icon-badge"></i></span>
+                <span class="u-icon-v2 u-icon-size--3xl g-font-size-30 g-font-size-40--md g-color-primary g-brd-10 g-brd-gray-light-v5 g-rounded-50x g-mb-25"><i class="fa fa-file-code-o"></i></span>
                 <h3 class="h6 text-uppercase g-font-weight-700 g-font-secondary g-color-black g-mb-15">Development</h3>
                 <p class="mb-0">Build digital experiences, complex inside, simple outside! Design chatbots to automate and convert visitors to customers. Develop simple corporate websites or advanced sites with eCommerce marketplace, Fan Community, Social Network, Blog and Magazine, News/Media functionality.</p>
               </div>
@@ -458,13 +242,14 @@
               <div class="align-self-center">
                 <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary g-mb-30">
                   <h3 class="g-font-weight-700 g-font-size-12 g-color-primary g-mb-20">Principles</h3>
-                  <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-weight-700 g-font-size-30 g-font-size-40--md g-theme-color-gray-dark-v1 mb-0">Our Values</h2>
+                  <h2 class="u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-weight-700 g-font-size-30 g-font-size-40--md g-theme-color-gray-dark-v1 mb-0">Digital LifeCycle</h2>
                 </div>
 
-                <p class="g-mb-30">Donec ut diam risus. Nunc cursus turpis ac erat mollis maximus. Donec erat urna, tincidunt at leo non, blandit finibus ante. Nunc venenatis risus in finibus dapibus. Ut ac massa sodales, mattis enim id, efficitur tortor. Nullam faucibus iaculis laoreet. Phasellus ac ipsum odio.</p>
-                <p class="g-mb-30">Nulla cursus orci sed ipsum scelerisque volutpat. Integer quis dapibus leo, maximus ultrices dui. Mauris facilisis, ex sed scelerisque bibendum, tellus leo pharetra augue.</p>
-                <p class="g-mb-30">Mauris aliquet, magna nec gravida interdum, magna nibh fringilla nulla, eget egestas sapien orci eget tellus. Pellentesque vulputate posuere libero a varius. Duis feugiat.</p>
-                <a class="btn u-btn-primary btn-md text-uppercase g-font-weight-700 g-font-size-12 rounded-0 g-px-25 g-py-10 mb-0" href="#">Get in touch</a>
+                <p class="g-mb-30">The Customer lifecycle in digital world cosists of 3 phases, with 1 foundation phase. We, at Awesome Online Networks, offer help you at all 4 phases of digital lifecycle of business.</p>
+                <p class="g-mb-30">Phase# 1 <strong>Build:</strong> where we create, design and develop something new or modify the existing with code and UI. Phase#2 is <strong>Promote</strong>: Once ready with your digital storefront, we help you promote your products and services and brand online.</p>
+                <p class="g-mb-30">Phase# 3 is <strong>Optimize</strong>: To assess existing digital assets, Audit marketing campaigns, or cloud architecture of the organization to tweak and optimize to improve efficiency and profits.</p>
+                <p class="g-mb-30">Phase#4 (or phase#0 !) <strong>Maintain</strong>: Providing services, delivering promises, all while maintaining your server infrastructure, domains, security certificates and cloud computing instances.</p> 
+                <a class="btn u-btn-primary btn-md text-uppercase g-font-weight-700 g-font-size-12 rounded-0 g-px-25 g-py-10 mb-0" href="#contact">Get in touch</a>
               </div>
             </div>
 
@@ -476,13 +261,13 @@
                          data-animation-duration="1750">
                   <div class="d-md-flex align-self-center g-mb-30 g-mb-0--md g-mr-30--md">
                     <span class="u-icon-v2 u-icon-size--2xl g-color-primary g-brd-4 g-theme-brd-gray-dark-v3 g-brd-primary-dark--parent-hover g-rounded-50x">
-                      <i class="icon-line icon-magnet g-font-size-35"></i>
+                      <i class="icon-line icon-diamond g-font-size-35"></i>
                     </span>
                   </div>
 
                   <div class="media-body align-self-center">
                     <h3 class="h6 text-uppercase g-font-weight-700 g-font-secondary g-color-white">Ethics At Work</h3>
-                    <p class="g-color-white-opacity-0_5 mb-0">We carry high ethical standards at work. Proin suscipit facilisis ultrices. Phasellus arcu risus, semper quis elementum eget.</p>
+                    <p class="g-color-white-opacity-0_5 mb-0">We carry high ethical standards inside the organisation. It's easy to provide false excuses or take shortcuts. But we believe in integrity, trust and transparency.</p>
                   </div>
                 </article>
                 <!-- End Icon Blocks -->
@@ -501,7 +286,7 @@
 
                   <div class="media-body align-self-center">
                     <h3 class="h6 text-uppercase g-font-weight-700 g-font-secondary g-color-white">Service Excellence</h3>
-                    <p class="g-color-white-opacity-0_5 mb-0">Mauris aliquet, magna nec gravida interdum, magna nibh fringilla nulla, eget egestas sapien orci eget tellusa varius.</p>
+                    <p class="g-color-white-opacity-0_5 mb-0">We strive to provide the top notch service to our clients. Irrespective of the size of the account, whether a large enterprise or budding digital creator, we assure to offer best.</p>
                   </div>
                 </article>
                 <!-- End Icon Blocks -->
@@ -514,13 +299,13 @@
                          data-animation-duration="1750">
                   <div class="d-md-flex align-self-center g-mb-30 g-mb-0--md g-mr-30--md">
                     <span class="u-icon-v2 u-icon-size--2xl g-color-primary g-brd-4 g-theme-brd-gray-dark-v3 g-brd-primary-dark--parent-hover g-rounded-50x">
-                      <i class="icon-line icon-calculator g-font-size-35"></i>
+                      <i class="icon-line fa fa-microchip g-font-size-35"></i>
                     </span>
                   </div>
 
                   <div class="media-body align-self-center">
                     <h3 class="h6 text-uppercase g-font-weight-700 g-font-secondary g-color-white">Technology for Good</h3>
-                    <p class="g-color-white-opacity-0_5 mb-0">We are a bunch of techno-savvy people coming together to provide solutions to clients needs using latest, greatest and most sophisticated technologies. But we only use 'tech when effective'. Charging client tank, unecessary when a simple solution with human </p>
+                    <p class="g-color-white-opacity-0_5 mb-0">We are a bunch of techno-savvy people coming together to provide solutions to clients needs using latest, greatest and most sophisticated technologies. But we only use 'tech when effective'. Exploiting the client and charging tank, when a simple solution with human intervention is possible, then we skip tech and offer the latter.</p>
                   </div>
                 </article>
                 <!-- End Icon Blocks -->
@@ -549,25 +334,25 @@
             <div class="col-sm-6 col-md-3 g-theme-bg-gray-dark-v1 px-0 g-py-60">
               <i class="icon-line icon-map d-inline-block g-font-size-30 g-font-size-40--md g-color-primary g-mb-30"></i>
               <h3 class="text-uppercase g-font-size-11 g-theme-color-gray-light-v3 g-mb-5">Address</h3>
-              <strong class="g-font-size-16 g-color-white">In sed lectus tincidunt</strong>
+              <strong class="g-font-size-16 g-color-white">Mumbai | Singapore | Dubai</strong>
             </div>
 
             <div class="col-sm-6 col-md-3 g-theme-bg-gray-dark-v2 px-0 g-py-60">
               <i class="icon-line icon-screen-smartphone d-inline-block g-font-size-30 g-font-size-40--md g-color-primary g-mb-30"></i>
               <h3 class="text-uppercase g-font-size-11 g-theme-color-gray-light-v3 g-mb-5">Phone number</h3>
-              <strong class="g-font-size-16 g-color-white">+48 555 2566 112</strong>
+              <strong class="g-font-size-16 g-color-white">+91 8879456926</strong>
             </div>
 
             <div class="col-sm-6 col-md-3 g-theme-bg-gray-dark-v1 px-0 g-py-60">
               <i class="icon-line icon-envelope-letter d-inline-block g-font-size-30 g-font-size-40--md g-color-primary g-mb-30"></i>
               <h3 class="text-uppercase g-font-size-11 g-theme-color-gray-light-v3 g-mb-5">Email</h3>
-              <a class="g-font-size-16 g-color-white" href="mailto:info@aon.cx"><strong>info@aon.cx</strong></a>
+              <a class="g-font-size-16 g-color-white" href="mailto:hi@aon.cx"><strong>hi@aon.cx</strong></a>
             </div>
 
             <div class="col-sm-6 col-md-3 g-theme-bg-gray-dark-v2 px-0 g-py-60">
               <i class="icon-line icon-call-in d-inline-block g-font-size-30 g-font-size-40--md g-color-primary g-mb-30"></i>
               <h3 class="text-uppercase g-font-size-11 g-theme-color-gray-light-v3 g-mb-5">Call free</h3>
-              <strong class="g-font-size-16 g-color-white">+48 555 1258 987</strong>
+              <strong class="g-font-size-16 g-color-white">+91 8879456926</strong>
             </div>
           </address>
         </div>
@@ -576,45 +361,97 @@
           <div class="container">
             <div class="u-heading-v8-2 g-mb-60">
               <h2 class="h1 text-uppercase u-heading-v8__title g-font-weight-700 g-font-size-26 g-font-secondary g-color-gray-dark-v2 g-mb-25">Have a questions?</h2>
-              <p class="mb-0">Sed eget aliquet nisl. Proin laoreet accumsan nisl non vestibulum.</p>
+              <p class="mb-0">Please let us know your expectations so we can help in meeting your objectives</p>
             </div>
 
-            <form>
-              <div class="row">
-                <div class="col-md-6 form-group g-mb-30">
-                  <input id="inputGroup1_1" class="form-control h-100 g-font-size-default g-theme-color-gray-dark-v2 g-placeholder-inherit g-bg-white g-bg-white--focus g-brd-white g-brd-gray-light-v3--hover g-brd-gray-light-v3--focus g-rounded-1 g-py-13 g-px-12 g-transition-0_2 g-transition--ease-in" type="text" placeholder="Your name">
-                </div>
+            <!-- Note :
+   - You can modify the font style and form style to suit your website. 
+   - Code lines with comments “Do not remove this code”  are required for the form to work properly, make sure that you do not remove these lines of code. 
+   - The Mandatory check script can modified as to suit your business needs. 
+   - It is important that you test the modified form before going live.-->
+<div id='crmWebToEntityForm' style='width:600px;margin:auto;'>
+  <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+  <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads1239477000000120001 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
 
-                <div class="col-md-6 form-group g-mb-30">
-                  <input id="inputGroup1_2" class="form-control h-100 g-font-size-default g-theme-color-gray-dark-v2 g-placeholder-inherit g-bg-white g-bg-white--focus g-brd-white g-brd-gray-light-v3--hover g-brd-gray-light-v3--focus g-rounded-1 g-py-13 g-px-12 g-transition-0_2 g-transition--ease-in" type="tel" placeholder="Your phone">
-                </div>
+  <!-- Do not remove this code. -->
+ <input type='text' style='display:none;' name='xnQsjsdp' value='4d034818fcadfd8bc8ddbf9fb5d5e6945b4bf754a74763973b435e60d56a00bd'/>
+ <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+ <input type='text' style='display:none;' name='xmIwtLD' value='e3945a2a9ad283d7b9d1a3c717b39e45f5e57f7550e92a67a55aad7bc22691b7'/>
+ <input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
 
-                <div class="col-md-6 form-group g-mb-30">
-                  <select id="inputGroup1_3" class="js-custom-select form-control h-100 text-left u-form-control u-select-v1 g-font-size-default g-theme-color-gray-dark-v2 g-bg-white g-brd-white g-brd-gray-light-v3--hover g-rounded-1 g-py-13 g-px-12 g-transition-0_2 g-transition--ease-in" style="width: 100%;"
-                          data-placeholder="Department"
-                          data-open-icon="fa fa-caret-down"
-                          data-close-icon="fa fa-caret-up">
-                    <option></option>
-                    <option value="Department1">Department1</option>
-                    <option value="Department2">Department2</option>
-                    <option value="Department3">Department3</option>
-                    <option value="Department4">Department4</option>
-                  </select>
-                </div>
+ <input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;amrute.me&#x2f;lead-enquiry-form&#x2f;submitted&#x2f;' /> 
+  <!-- Do not remove this code. -->
+ <style>
+   tr , td { 
+     padding:6px;
+     border-spacing:0px;
+     border-width:0px;
+     }
+ </style>
+ <table style='width:600px;background-color:white;color:black'>
 
-                <div class="col-md-6 form-group g-mb-30">
-                  <input id="inputGroup1_4" class="form-control h-100 g-font-size-default g-theme-color-gray-dark-v2 g-placeholder-inherit g-bg-white g-bg-white--focus g-brd-white g-brd-gray-light-v3--hover g-brd-gray-light-v3--focus g-rounded-1 g-py-13 g-px-12 g-transition-0_2 g-transition--ease-in" type="text" placeholder="Subject">
-                </div>
+ <tr><td colspan='2' style='text-align:left;color:black;font-family:Arial;font-size:14px;'><strong>Enquiry Form</strong></td></tr>
 
-                <div class="col-md-12 form-group g-mb-30">
-                  <textarea id="inputGroup1_5" class="form-control g-resize-none g-font-size-default g-theme-color-gray-dark-v2 g-placeholder-inherit g-bg-white g-bg-white--focus g-brd-white g-brd-gray-light-v3--hover g-brd-gray-light-v3--focus g-rounded-1 g-py-13 g-px-12 g-transition-0_2 g-transition--ease-in" rows="6" placeholder="Message"></textarea>
-                </div>
-              </div>
+ <tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>First Name</td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='40' name='First Name' /></td></tr>
 
-              <div class="text-center">
-                <button class="btn u-btn-primary btn-md text-uppercase g-font-weight-700 g-font-size-12 rounded-0 g-px-25 g-py-10 mb-0" type="submit" role="button">Send message</button>
-              </div>
-            </form>
+ <tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Last Name<span style='color:red;'>*</span></td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='80' name='Last Name' /></td></tr>
+
+ <tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Email<span style='color:red;'>*</span></td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='100' name='Email' /></td></tr>
+
+ <tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Phone</td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='30' name='Phone' /></td></tr>
+
+ <tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Company</td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='100' name='Company' /></td></tr>
+
+ <tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Company Website</td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='255' name='Website' /></td></tr>
+
+ <tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Description Message </td><td> <textarea name='Description' maxlength='1000' style='width:250;'>&nbsp;</textarea></td></tr>
+
+ <tr><td colspan='2' style='text-align:center; padding-top:15px;'>
+   <input style='font-size:12px;color:#131307' type='submit' value='Submit' />
+   <input type='reset' style='font-size:12px;color:#131307' value='Reset' />
+     </td>
+ </tr>
+  </table>
+ <script>
+    var mndFileds=new Array('Last Name','Email');
+    var fldLangVal=new Array('Last Name','Email');
+   var name='';
+   var email='';
+
+    function checkMandatory() {
+   for(i=0;i<mndFileds.length;i++) {
+     var fieldObj=document.forms['WebToLeads1239477000000120001'][mndFileds[i]];
+     if(fieldObj) {
+     if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+       alert(fldLangVal[i] +' cannot be empty'); 
+               fieldObj.focus();
+               return false;
+     }  else if(fieldObj.nodeName=='SELECT') {
+              if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+       alert(fldLangVal[i] +' cannot be none'); 
+       fieldObj.focus();
+       return false;
+        }
+     } else if(fieldObj.type =='checkbox'){
+         if(fieldObj.checked == false){
+       alert('Please accept  '+fldLangVal[i]);
+       fieldObj.focus();
+       return false;
+        } 
+      } 
+      try {
+          if(fieldObj.name == 'Last Name') {
+       name = fieldObj.value;
+            }
+     } catch (e) {}
+       }
+   }
+      }
+    </script>
+ </form>
+</div>
+
+
           </div>
         </div>
 
@@ -623,17 +460,6 @@
             <img class="img-fluid g-width-130" src="assets/img/logo-dark.png" alt="Image description">
           </a>
           <p class="g-color-white-opacity-0_7 g-mb-30">&copy; AON.CX Awesome Online Networks, an agency arm of Linguistics Labs India Pvt. Ltd.</p>
-          <ul class="list-inline d-inline-block g-mb-30">
-            <li class="list-inline-item g-mr-10">
-              <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-16 g-color-primary g-color-white--hover g-bg-white g-bg-gray-dark-v2--hover g-transition-0_2 g-transition--ease-in" href="#"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li class="list-inline-item g-mr-10">
-              <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-16 g-color-primary g-color-white--hover g-bg-white g-bg-gray-dark-v2--hover g-transition-0_2 g-transition--ease-in" href="#"><i class="fa fa-facebook"></i></a>
-            </li>
-            <li class="list-inline-item">
-              <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-16 g-color-primary g-color-white--hover g-bg-white g-bg-gray-dark-v2--hover g-transition-0_2 g-transition--ease-in" href="#"><i class="fa fa-linkedin"></i></a>
-            </li>
-          </ul>
         </div>
       </footer>
       <!-- End Footer -->
@@ -642,45 +468,27 @@
     <!-- JS Global Compulsory -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-    <!-- <script src="assets/vendor/popper.js/popper.min.js"></script> -->
+    
     <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
 
     <!-- JS Implementing Plugins -->
     <script src="assets/vendor/appear.js"></script>
-    <!-- <script src="assets/vendor/chosen/chosen.jquery.js"></script> -->
-    <script src="assets/vendor/image-select/src/ImageSelect.jquery.js"></script>
-    <!-- <script src="assets/vendor/circles/circles.min.js"></script> -->
-    <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
-    <!-- <script src="assets/vendor/gmaps/gmaps.min.js"></script> -->
-
-    <!-- JS Revolution Slider -->
-    <script src="assets/vendor/revolution-slider/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="assets/vendor/revolution-slider/revolution/js/jquery.themepunch.revolution.min.js"></script>
-
-    <script src='../../assets/vendor/revolution-slider/revolution-addons/slicey/js/revolution.addon.slicey.min.js'></script>
-
-    <script src="assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    
+    <!-- <script src="assets/vendor/image-select/src/ImageSelect.jquery.js"></script> -->
+    
 
     <!-- JS Unify -->
     <script src="assets/js/hs.core.js"></script>
     <script src="assets/js/components/hs.header.js"></script>
     <script src="assets/js/helpers/hs.hamburgers.js"></script>
     <script src="assets/js/components/hs.scroll-nav.js"></script>
-    <!-- <script src="assets/js/components/hs.select.js"></script> -->
+   
     <script src="assets/js/components/hs.onscroll-animation.js"></script>
-    <!-- <script src="assets/js/components/hs.tabs.js"></script> -->
-    <!-- <script src="assets/js/components/hs.progress-bar.js"></script> -->
-    <!-- <script src="assets/js/components/hs.chart-pie.js"></script> -->
+   
+
+
     <script src="assets/js/components/hs.carousel.js"></script>
-    <!-- <script src="assets/js/components/gmap/hs.map.js"></script> -->
+    
     <script src="assets/js/components/hs.go-to.js"></script>
 
     <!-- JS Customization -->
@@ -688,113 +496,9 @@
 
     <!-- JS Plugins Init. -->
     <script>
-      // initialization of google map
-      // function initMap() {
-      //   $.HSCore.components.HSGMap.init('.js-g-map');
-      // }
-
-      // initialization of revolution slider
-      var tpj = jQuery,
-        promoSlider;
-
-      tpj(document).on('ready', function () {
-        if (tpj('#promoSlider').revolution == undefined) {
-          revslider_showDoubleJqueryError('#promoSlider');
-        } else {
-          promoSlider = tpj('#promoSlider').show().revolution({
-            sliderType: 'standard',
-            jsFileLocation: '../../revolution/js/',
-            sliderLayout: 'fullscreen',
-            dottedOverlay: 'none',
-            delay: 9000,
-            navigation: {
-              keyboardNavigation: 'off',
-              keyboard_direction: 'horizontal',
-              mouseScrollNavigation: 'off',
-              onHoverStop: 'off',
-              touch: {
-                touchenabled: 'on',
-                swipe_threshold: 75,
-                swipe_min_touches: 1,
-                swipe_direction: 'horizontal',
-                drag_block_vertical: false
-              },
-              bullets: {
-                enable: true,
-                hide_onmobile: true,
-                hide_under: 960,
-                style: 'zeus',
-                hide_onleave: false,
-                direction: 'horizontal',
-                h_align: 'right',
-                v_align: 'bottom',
-                h_offset: 80,
-                v_offset: 50,
-                space: 5,
-                tmp: '<span class="tp-bullet-image"></span>' +
-                '<span class="tp-bullet-imageoverlay"></span>' +
-                '<span class="tp-bullet-title">{{title}}</span>'
-              }
-            },
-            responsiveLevels: [1240, 1024, 778, 480],
-            gridwidth: [1240, 1024, 778, 480],
-            gridheight: [868, 768, 960, 720],
-            lazyType: 'none',
-            parallax: {
-              type: 'mouse',
-              origo: 'slidercenter',
-              speed: 2000,
-              levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50],
-              disable_onmobile: 'on'
-            },
-            shadow: 0,
-            spinner: 'off',
-            stopLoop: 'on',
-            stopAfterLoops: 0,
-            stopAtSlide: 1,
-            shuffle: 'off',
-            autoHeight: 'off',
-            fullScreenAlignForce: 'off',
-            fullScreenOffset: '60px',
-            disableProgressBar: 'on',
-            hideThumbsOnMobile: 'off',
-            hideSliderAtLimit: 0,
-            hideCaptionAtLimit: 0,
-            hideAllCaptionAtLilmit: 0,
-            debugMode: false,
-            fallbacks: {
-              simplifyAll: 'off',
-              nextSlideOnWindowFocus: 'off',
-              disableFocusListener: false
-            }
-          });
-
-          var newCall = new Object(),
-            cslide;
-
-          newCall.callback = function () {
-            var proc = promoSlider.revgetparallaxproc(),
-              fade = 1 + proc,
-              scale = 1 + (Math.abs(proc) / 10);
-
-            punchgs.TweenLite.set(promoSlider.find('.slotholder, .rs-background-video-layer'), {
-              opacity: fade,
-              scale: scale
-            });
-          };
-
-          newCall.inmodule = 'parallax';
-          newCall.atposition = 'start';
-
-          promoSlider.bind('revolution.slide.onloaded', function (e) {
-            promoSlider.revaddcallback(newCall);
-          });
-        }
-      });
-
       $(document).on('ready', function () {
         // initialization of carousel
-        $.HSCore.components.HSCarousel.init('.js-carousel');
+        // $.HSCore.components.HSCarousel.init('.js-carousel');
 
         // initialization of header
         $.HSCore.components.HSHeader.init($('#js-header'));
@@ -804,16 +508,16 @@
         $.HSCore.components.HSOnScrollAnimation.init('[data-animation]');
 
         // initialization of tabs
-        $.HSCore.components.HSTabs.init('[role="tablist"]');
+        // $.HSCore.components.HSTabs.init('[role="tablist"]');
 
         // initialization of progressbar
-        var horizontalProgressBars = $.HSCore.components.HSProgressBar.init('.js-hr-progress-bar', {
-          direction: 'horizontal',
-          indicatorSelector: '.js-hr-progress-bar-indicator'
-        });
+        // var horizontalProgressBars = $.HSCore.components.HSProgressBar.init('.js-hr-progress-bar', {
+        //   direction: 'horizontal',
+        //   indicatorSelector: '.js-hr-progress-bar-indicator'
+        // });
 
         // initialization of chart pies
-        var items = $.HSCore.components.HSChartPie.init('.js-pie');
+        // var items = $.HSCore.components.HSChartPie.init('.js-pie');
 
         // initialization of go to section
         $.HSCore.components.HSGoTo.init('.js-go-to');
@@ -825,19 +529,34 @@
           duration: 700
         });
 
-        setTimeout(function() {
-          // initialization of select
-          $.HSCore.components.HSSelect.init('.js-custom-select');
-        }, 1);
+        // setTimeout(function() {
+        //   // initialization of select
+        //   $.HSCore.components.HSSelect.init('.js-custom-select');
+        // }, 1);
       });
 
-      $(window).on('resize', function () {
-        setTimeout(function () {
-          $.HSCore.components.HSTabs.init('[role="tablist"]');
-        }, 200);
-      });
+      // $(window).on('resize', function () {
+      //   setTimeout(function () {
+      //     $.HSCore.components.HSTabs.init('[role="tablist"]');
+      //   }, 200);
+      // });
     </script>
 
-    <!-- <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyAtt1z99GtrHZt_IcnK-wryNsQ30A112J0&callback=initMap" async></script> -->
+    <script>
+        let video = document.getElementById('video');
+            document.getElementById('btn').addEventListener('click', button_action);
+
+            function button_action() {
+                if (video.paused) {
+                    video.play();
+                    btn.innerHTML = "Puase Video";
+                } else {
+                    video.pause();
+                    btn.innerHTML = "Play Video"
+                }
+            };
+
+    </script>
+  
   </body>
 </html>

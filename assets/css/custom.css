@@ -1,1 +1,29 @@
 /* Add here all your css styles (customizations) */
+.banner-video-wrapper,
+.banner {
+	position: relative;
+}
+.banner-overlay{
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.banner-content{
+	position: absolute;
+	left: 0px;
+	bottom: 50px;
+	width: 100%;
+	z-index: 99;
+	color: #fff;
+	padding: 30px;
+}
+.banner h1.fadeInUp.u-in-viewport {
+    color: #fff;
+    font-size: 4em;
+    font-weight: 800;
+    line-height: 66px;
+    text-transform: uppercase;
+}
