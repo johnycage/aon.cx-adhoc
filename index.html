@@ -53,7 +53,7 @@
               <!-- Navigation -->
               <div id="navBar" class="collapse navbar-collapse w-100 align-items-center flex-sm-row" data-mobile-scroll-hide="true">
                 <div class="navbar-collapse">
-                  <ul id="js-scroll-nav" class="navbar-nav text-uppercase g-font-weight-700 g-font-size-11 ml-auto g-pt-20 g-pt-3--lg">
+                  <ul id="js-scroll-nav" class="navbar-nav text-uppercase g-font-weight-700 g-font-size-14 ml-auto g-pt-20 g-pt-3--lg">
                     <li class="nav-item g-mr-15--lg g-mb-7 g-mb-0--lg active">
                       <a href="#solutions" class="nav-link p-0">solutions<span class="sr-only">(current)</span></a>
                     </li>
@@ -93,19 +93,22 @@
 
       <!-- Section Content -->
       <section id="home">
-        <div id="banner-video-wrapper" class="fullscreen-container">
+        <div id="banner-wrapper" class="fullscreen-container">
 
           <div class="banner">
-                <video autoplay muted loop id="video">
-                    <source src="assets/video/typing.mp4" type="video/mp4">
-                </video>
+              <div class="video-wrapper">
+                  <video autoplay muted loop id="video">
+                      <source src="assets/video/typing.mp4" type="video/mp4">
+                  </video>
+                </div>
                 <div class="banner-overlay"></div>
                 <div class="banner-content">
                     <h1 data-animation="fadeInUp"
                    data-animation-duration="1300">Awesome Online Networks</h1>
                     <p data-animation="fadeInUp"
                    data-animation-duration="1500">A Full LifeCyle Digital Agency for customer centric Organizations &amp; Brands</p>
-                    <button class="button" id="btn" href="#solutions">Know more...</button>
+                    <a data-animation="fadeInUp"
+                   data-animation-duration="1500" class="btn btn-outline-secondary" id="more" href="javascript: scrollToServices();">Know more...</a>
                 </div>
             </div>
         </div>
@@ -333,25 +336,25 @@
           <address class="row g-color-gray-dark-v4 mb-0">
             <div class="col-sm-6 col-md-3 g-theme-bg-gray-dark-v1 px-0 g-py-60">
               <i class="icon-line icon-map d-inline-block g-font-size-30 g-font-size-40--md g-color-primary g-mb-30"></i>
-              <h3 class="text-uppercase g-font-size-11 g-theme-color-gray-light-v3 g-mb-5">Locations</h3>
+              <h3 class="text-uppercase g-font-size-14 g-theme-color-gray-light-v3 g-mb-5">Locations</h3>
               <strong class="g-font-size-16 g-color-white">Mumbai | Singapore | Dubai</strong>
             </div>
 
             <div class="col-sm-6 col-md-3 g-theme-bg-gray-dark-v2 px-0 g-py-60">
               <i class="icon-line icon-envelope d-inline-block g-font-size-30 g-font-size-40--md g-color-primary g-mb-30"></i>
-              <h3 class="text-uppercase g-font-size-11 g-theme-color-gray-light-v3 g-mb-5">Partner with Us</h3>
+              <h3 class="text-uppercase g-font-size-14 g-theme-color-gray-light-v3 g-mb-5">Partner with Us</h3>
               <strong class="g-font-size-16 g-color-white">info@aon.cx</strong>
             </div>
 
             <div class="col-sm-6 col-md-3 g-theme-bg-gray-dark-v1 px-0 g-py-60">
               <i class="icon-line icon-envelope-letter d-inline-block g-font-size-30 g-font-size-40--md g-color-primary g-mb-30"></i>
-              <h3 class="text-uppercase g-font-size-11 g-theme-color-gray-light-v3 g-mb-5">Enquiry</h3>
+              <h3 class="text-uppercase g-font-size-14 g-theme-color-gray-light-v3 g-mb-5">Enquiry</h3>
               <a class="g-font-size-16 g-color-white" href="mailto:hi@aon.cx"><strong>sales@aon.cx</strong></a>
             </div>
 
             <div class="col-sm-6 col-md-3 g-theme-bg-gray-dark-v2 px-0 g-py-60">
               <i class="icon-line icon-call-in d-inline-block g-font-size-30 g-font-size-40--md g-color-primary g-mb-30"></i>
-              <h3 class="text-uppercase g-font-size-11 g-theme-color-gray-light-v3 g-mb-5">Call</h3>
+              <h3 class="text-uppercase g-font-size-14 g-theme-color-gray-light-v3 g-mb-5">Call</h3>
               <strong class="g-font-size-16 g-color-white">+91 8879456926</strong>
             </div>
           </address>
@@ -363,7 +366,7 @@
               <h2 class="h1 text-uppercase u-heading-v8__title g-font-weight-700 g-font-size-26 g-font-secondary g-color-gray-dark-v2 g-mb-25">Have a question?</h2>
               <p class="mb-0">Please help us understand your requirement, objectives, and the solution you expect from us. Email us if you wish to send documents.</p>
             </div>
-            <iframe frameborder="0" style="height:1300px;width:99%;border:none;" src='https://forms.zohopublic.in/llipltd/form/AONwebenquiry/formperma/65UVn2I6hXi_eKgZGdUeKJ_fX4Fc_Qvs83OlXj-qGGs'></iframe>
+            <iframe frameborder="0" style="height:1100px;width:99%;border:none;" src='https://forms.zohopublic.in/llipltd/form/AONwebenquiry/formperma/65UVn2I6hXi_eKgZGdUeKJ_fX4Fc_Qvs83OlXj-qGGs'></iframe>
            
 
 
@@ -456,22 +459,11 @@
       //   }, 200);
       // });
     </script>
-
-    <script>
-        let video = document.getElementById('video');
-            document.getElementById('btn').addEventListener('click', button_action);
-
-            function button_action() {
-                if (video.paused) {
-                    video.play();
-                    btn.innerHTML = "Puase Video";
-                } else {
-                    video.pause();
-                    btn.innerHTML = "Play Video"
-                }
-            };
-
-    </script>
-  
+    <script type="text/javascript">  
+      // document.getElementById('more').addEventListener('click', button_action);
+      function scrollToServices() {
+          document.querySelector('#solutions').scrollIntoView({behavior: 'smooth'});
+      }
+      </script>
   </body>
 </html>
